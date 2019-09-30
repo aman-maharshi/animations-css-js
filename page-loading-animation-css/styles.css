@@ -58,6 +58,12 @@ main p {
         padding: 1rem;
     }
 }
+.highlight {
+    font-size: 1.25rem;
+    margin-top: 2rem;
+    padding: 1rem;
+    background-color: lightcyan;
+}
 /*
     ANIMATIONS
 -----------------*/
@@ -132,3 +138,22 @@ p {
         opacity: 1;
     }
 }
+/* Animation for the highlight div  */
+@media (min-width: 768px) {
+    .highlight {
+        animation: highlight-load 0.6s ease-in calc(var(--article-load-delay) + 0.4s);    
+        animation-fill-mode: forwards;
+        opacity: 0;
+    }
+}
+@keyframes highlight-load {
+    0% {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    100% {
+        tranform: translateX(0);
+        opacity: 1;
+    }
+}
+
