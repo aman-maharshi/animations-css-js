@@ -3,6 +3,7 @@ body {
     margin: 0;
     --nav-load-time: 0.4s;
     --nav-link-load-time: 0.6s;
+    --article-load-delay: calc(var(--nav-link-load-time) + var(--nav-load-time));
 }
 /*
     PAGE STYLING
@@ -44,13 +45,18 @@ nav a:hover {
 main {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 0 1rem;
+    padding: 3rem 1rem;
 }
 main h1 {
     font-size: 1.75rem;
 }
 main p {
     font-size: 1.1rem;
+}
+@media (max-width: 576px) {
+    main {
+        padding: 1rem;
+    }
 }
 /*
     ANIMATIONS
@@ -90,5 +96,39 @@ nav li {
     }
     100% {
         transform: scale(1);
+    }
+}
+/* Main - Third animation for h1 tag */
+h1 {
+    animation: article-load 0.4s ease-in var(--article-load-delay);
+    animation-fill-mode: forwards;
+    transform: translateY(-20px);
+    opacity: 0;
+}
+@keyframes article-load {
+    0% {
+        transform: translateY(-20px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+/* Main - Third animation for p tag, similar to h1 animation with a slight delay added */
+p {
+    animation: article-load 0.4s ease-in calc(var(--article-load-delay) + 0.2s);
+    animation-fill-mode: forwards;
+    transform: translateY(-20px);
+    opacity: 0;
+}
+@keyframes article-load {
+    0% {
+        transform: translateY(-20px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
     }
 }
