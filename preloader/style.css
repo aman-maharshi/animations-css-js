@@ -1,0 +1,30 @@
+html, body {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+.preloader-overlay {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0,0,0,0.3);
+}
+.spinner {
+    height: 5rem;
+    width: 5rem;
+    border: 2px solid #f3f3f3;
+    border-top: 3px solid lightcoral;
+    border-radius: 50%;
+    animation: spin 1s infinite linear;
+}
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
