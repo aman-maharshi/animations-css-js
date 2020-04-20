@@ -1,0 +1,72 @@
+/*
+  Things Learned
+
+*/
+:root {
+  --gray-bg: #E8E8E8;
+  --blue-icon: #5C9EEB;
+  --black-text: #3E3E3E;
+  --white: #FFFFFF;
+
+}
+body {
+  font-family: Tw Cen MT, sans-serif;
+  margin: 0;
+  background-color: var(--gray-bg);
+}
+h1 {
+  text-align: center;
+  margin-top: 3em;
+  margin-bottom: 1.2em;
+  font-size: 3em;
+  color: var(--black-text);
+}
+.container {
+  width: 100%;
+  /* overflow: hidden; */
+  position: relative;
+}
+.items {
+  display: flex;
+  /* align-items: center; */
+  /* width: fit-content; */
+  animation: carouselAnimation 5s infinite alternate linear;
+}
+.entry {
+  background: var(--white);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin: 1em;
+  padding: 0.5em;
+  border-radius: 15px;
+  box-shadow: 0 6px 20px rgb(192, 192, 192);
+  flex-basis: 20%; 
+}
+.entry .name {
+  font-weight: 600;
+  font-size: 1.3em;
+  color: var(--black-text);
+  text-align: center;
+}
+.entry img {
+  width: 60px;
+  margin-bottom: 1em;
+}
+.entry .quote {
+  font-size: 1em;
+  font-weight: 100;
+  color: var(--black-text);
+  text-align: center;
+}
+@keyframes carouselAnimation {
+  from {
+    transform: translate(5%);
+  }
+  to {
+    transform: translate(-5%);
+  }
+
+}
