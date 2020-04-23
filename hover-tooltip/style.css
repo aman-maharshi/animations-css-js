@@ -1,0 +1,41 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+:root {
+    --cream: #EAECEF;
+    --black: #3E4147;
+    height: 100%;
+}
+body {
+    font-family: 'Arvo', serif;
+    background: var(--cream);
+    height: calc(100% - 16px);
+    border: 1px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.avatar {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-image: url(./img/pic.png);
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+    position: relative;
+}
+/*
+    TOOLTIP
+*/
+.avatar::before {
+    position: absolute;
+    top: -30px;
+    left: 20%;
+    content: "Hi, its Aman!";
+    font-size: 20px;
+    display: none; 
+}
+.avatar:hover::before {
+    display: block;
+}
