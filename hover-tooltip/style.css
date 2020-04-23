@@ -28,14 +28,32 @@ body {
 /*
     TOOLTIP
 */
-.avatar::before {
+.avatar::before, .avatar::after {
+    --scale: 0;
     position: absolute;
-    top: -30px;
-    left: 20%;
-    content: "Hi, its Aman!";
-    font-size: 20px;
-    display: none; 
+    top: -1rem;
+    left: 50%;
+    transform: translateX(-50%) translateY(-100%) scale(var(--scale));
+    transition: 0.3s transform;
+    transform-origin: bottom center;
 }
-.avatar:hover::before {
-    display: block;
+.avatar::before {
+    content: attr(data-tooltip);
+    padding:  1rem;
+    width: max-content;
+    max-width: 100%;
+    background: var(--black);
+    color: white;
+    text-align: center;
+    border-radius: 0.25rem; 
+}
+.avatar:hover::before, .avatar:hover::after {
+    --scale: 1;
+}
+.avatar::after {
+    content: '';
+    border: 10px solid transparent;
+    border-top-color: var(--black);
+    top: 0.2rem;
+    transform-origin: top center;
 }
