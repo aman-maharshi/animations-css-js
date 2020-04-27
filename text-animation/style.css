@@ -1,0 +1,44 @@
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    background: #18071B;
+    padding-top: 5rem;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+h1 {
+    font-size: 4.5rem;
+    padding-left: 3rem;
+}
+@media (max-width: 576px) {
+    h1 {
+        font-size: 3.5rem;
+        padding-left: 1rem;
+    }
+}
+span {
+    opacity: 0;
+    transition: all 1s ease;
+}
+.fade {
+    opacity: 1;
+}
+
+span.two {
+    opacity: 0;
+    display: inline-block;
+    transform: translateY(40px);
+}
+span.fadeTwo {
+    opacity: 1;
+    color: red;
+    transform: translateY(0);
+}
