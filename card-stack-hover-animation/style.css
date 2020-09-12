@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@200;400;700&display=swap");
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Raleway", sans-serif;
+    background: #17141d;
+    color: white;
+}
+
+.card-list {
+    display: flex;
+    padding: 3rem;
+    overflow-x: scroll;
+    border: 1px dashed #3a3a3a;
+    margin: 4rem 2rem;
+}
+@media (min-width: 800px) {
+    .card-list {
+        margin: 4rem 8rem;
+    }
+}
+.card {
+    height: 350px;
+    width: 400px;
+    min-width: 250px;
+    padding: 1.5rem;
+    border-radius: 16px;
+    background: #17141d;
+    /* card stack effect */
+    box-shadow: -1rem 0 3rem #000;
+    transition: 0.3s;
+}
+
+.card-header h2 {
+    background: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+    text-shadow: none;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+/*
+    STYLING THE SCROLLBAR
+*/
+.card-list::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+.card-list::-webkit-scrollbar-thumb {
+    background: #5eb6b9;
+    border-radius: 10px;
+    box-shadow: inset 2px 2px 2px hsla(0, 0%, 100%, 0.25), inset -2px -2px 2px rgba(0, 0, 0, 0.25);
+}
+
+.card-list::-webkit-scrollbar-track {
+    background: linear-gradient(90deg, #201c29, #201c29 1px, #17141d 0, #17141d);
+}
+
+/*
+    CARD HOVER ANIMATION
+*/
+.card:hover {
+    transform: translateY(-1rem);
+}
+/* all siblings after the hovered element */
+.card:hover ~ .card {
+    transform: translateX(40px);
+}
+.card:not(:first-child) {
+    margin-left: -40px;
+}
