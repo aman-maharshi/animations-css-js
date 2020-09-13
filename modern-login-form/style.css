@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Syne:wght@400;700&display=swap");
+
+body {
+    background: black;
+    color: white;
+    font-family: "Syne", sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main {
+    padding: 1rem;
+}
+.field {
+    width: 100%;
+    margin: 4rem auto 1rem;
+    border-bottom: 2px solid #afafaf;
+}
+.field::after {
+    content: "";
+    position: relative;
+    display: block;
+    height: 4px;
+    width: 100%;
+    background: #d16dff;
+    transform: scaleX(0);
+    transform-origin: 0%;
+    transition: transform 500ms ease;
+}
+.field:focus-within {
+    border-color: transparent;
+}
+.field:focus-within::after {
+    transform: scaleX(1);
+}
+.label {
+    display: block;
+}
+form {
+    max-width: 500px;
+    color: #afafaf;
+    margin: 0 auto;
+}
+.input {
+    padding: 10px 0;
+    border-radius: 3px;
+    border: none;
+    outline: none;
+    overflow: hidden;
+    width: 100%;
+    font-size: 1.2rem;
+    background: none;
+    color: white;
+}
+.input:valid {
+    color: yellowgreen;
+}
+.input:invalid {
+    color: orangered;
+}
