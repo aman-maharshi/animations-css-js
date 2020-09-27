@@ -8,6 +8,7 @@
 1. [Text Animation](https://aman-maharshi.github.io/animations-css-js/text-animation)
 1. [Password Typing Animation](https://aman-maharshi.github.io/animations-css-js/image-password-strength/)
 1. [Features Loop](https://aman-maharshi.github.io/animations-css-js/carousel-pure-css/)
+1. [Two Stage Animation](https://aman-maharshi.github.io/animations-css-js/two-state-animation/)
 1. [Hover Tooltip](https://aman-maharshi.github.io/animations-css-js/hover-tooltip/)
 1. [On Scroll Animaiton](https://aman-maharshi.github.io/animations-css-js/on-scroll-animation)
 1. [Page Loading Animation](https://aman-maharshi.github.io/animations-css-js/page-loading-animation-css)
