@@ -4,7 +4,7 @@ body {
 }
 header {
     height: 100vh;
-    background: gray url(./images/bg.jpg) no-repeat top center;
+    background: gray url(./images/bg.png) no-repeat top center;
     background-size: cover;
     display: flex;
     justify-content: center;
