@@ -1,12 +1,5 @@
-@font-face {
-    font-family: "Lato";
-    src: url("/fonts/OpenSans-Regular.ttf");
-}
-@font-face {
-    font-family: "Lato";
-    src: url("/fonts/OpenSans-Bold.ttf");
-    font-weight: bold;
-}
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap');
+
 :root {
     --heading-color: #0b0a0a;
     --text-color: #403a3a;
@@ -14,7 +7,7 @@
 }
 body {
     margin: 0;
-    font-family: "Lato", sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     color: var(--text-color);
     background: var(--body-color);
 }

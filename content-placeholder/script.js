@@ -9,10 +9,10 @@ const animatedBg = document.querySelectorAll(".animated-bg")
 const animatedBgText = document.querySelectorAll(".animated-bg-text")
 
 const loadData = () => {
-    banner.innerHTML = '<img src="/images/hero-lg.png" alt="large-hero" />'
+    banner.innerHTML = '<img src="./images/hero-lg.png" alt="large-hero" />'
     title.innerHTML = "Lorem, ipsum dolor."
     desc.innerHTML = "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
-    dp.innerHTML = '<img src="/images/hero-sm.png" alt="small-hero" />'
+    dp.innerHTML = '<img src="./images/hero-sm.png" alt="small-hero" />'
     name.innerHTML = "Peter Keating"
     date.innerHTML = "15 Aug 2010"
 
