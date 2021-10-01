@@ -52,7 +52,7 @@ main {
     background: white;
     border-radius: 5px;
     box-shadow: 2px 2px 10px lightgray;
-    width: 375px;
+    width: 350px;
 }
 .banner {
     height: 225px;
@@ -67,6 +67,9 @@ main {
 .content {
     padding: 1rem;
 }
+.desc {
+    min-height: 60px;
+}
 h2 {
     font-size: 1.15rem;
     margin-bottom: 0.3rem;
@@ -80,6 +83,7 @@ h2 {
     height: 60px;
     width: 60px;
     margin-right: 1rem;
+    border-radius: 50%;
 }
 .author__image img {
     width: 100%;
@@ -116,6 +120,7 @@ h3 {
 }
 
 @keyframes grayBg {
+    /* Changing the background position along the x-axis */
     0% {
         background-position: 50% 0;
     }
