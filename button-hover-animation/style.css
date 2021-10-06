@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla&display=swap");
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Karla", sans-serif;
+    min-height: 90vh;
+}
+p {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    background: linear-gradient(to left, #00a7ff 0%, #00bc3f 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+button {
+    outline: none;
+    background: none;
+    border: 2px solid black;
+    padding: 1rem 3rem;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 3px;
+    cursor: pointer;
+    position: relative;
+    color: black;
+}
+button:before {
+    content: "";
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0%;
+    background: black;
+    z-index: -1;
+    transition: all 0.2s;
+}
+button:hover {
+    color: white;
+}
+button:hover:before {
+    width: 100%;
+}
