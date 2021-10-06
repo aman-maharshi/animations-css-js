@@ -5,6 +5,7 @@
 1. [Light/Dark Theme Switcher](https://aman-maharshi.github.io/animations-css-js/dark-mode-toggle/)
 1. [Landing Page Animation](https://aman-maharshi.github.io/animations-css-js/bootstrap4-layout-animation)
 1. [Content Placeholder](https://aman-maharshi.github.io/animations-css-js/content-placeholder)
+1. [Grid Animation](https://aman-maharshi.github.io/animations-css-js/grid-animation/)
 1. [Password Typing Animation](https://aman-maharshi.github.io/animations-css-js/image-password-strength/)
 1. [Modern Login Form](https://aman-maharshi.github.io/animations-css-js/modern-login-form/)
 1. [Features Loop](https://aman-maharshi.github.io/animations-css-js/carousel-pure-css/)

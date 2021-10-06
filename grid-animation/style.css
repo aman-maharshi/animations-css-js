@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans&display=swap");
+
+html {
+    --delay: 0.2s;
+}
+body {
+    background: rgb(19, 19, 19);
+    color: #fff;
+    font-family: "Noto Sans", sans-serif;
+    padding: 0 1rem;
+}
+.container {
+    display: grid;
+    grid-gap: 20px;
+    min-height: 80vh;
+
+    /* EXPLICIT GRID */
+    grid-template-areas:
+        "A B C D"
+        "L X X E"
+        "K X X F"
+        "J I H G";
+
+    grid-template-rows: repeat(4, 22.5%);
+    grid-template-columns: 225px auto auto 225px;
+}
+
+.card {
+    background: #353535;
+    font-size: 2rem;
+    box-shadow: rgba(3, 8, 20, 0.1) 0px 0.15rem 0.5rem, rgba(2, 8, 20, 0.1) 0px 0.075rem 0.175rem;
+    border-radius: 4px;
+    transition: all 500ms;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    /* FOR ANIMATION */
+    background-color: rgb(36, 243, 147);
+    animation: cardAnimation 0.7s ease-out;
+    animation-fill-mode: backwards;
+}
+
+.card:nth-child(1) {
+    grid-area: A;
+    animation-delay: calc(1 * var(--delay));
+}
+.card:nth-child(2) {
+    grid-area: B;
+    animation-delay: calc(2 * var(--delay));
+}
+.card:nth-child(3) {
+    grid-area: C;
+    animation-delay: calc(3 * var(--delay));
+}
+.card:nth-child(4) {
+    grid-area: D;
+    animation-delay: calc(4 * var(--delay));
+}
+.card:nth-child(5) {
+    grid-area: E;
+    animation-delay: calc(5 * var(--delay));
+}
+.card:nth-child(6) {
+    grid-area: F;
+    animation-delay: calc(6 * var(--delay));
+}
+.card:nth-child(7) {
+    grid-area: G;
+    animation-delay: calc(7 * var(--delay));
+}
+.card:nth-child(8) {
+    grid-area: H;
+    animation-delay: calc(8 * var(--delay));
+}
+.card:nth-child(9) {
+    grid-area: I;
+    animation-delay: calc(9 * var(--delay));
+}
+.card:nth-child(10) {
+    grid-area: J;
+    animation-delay: calc(10 * var(--delay));
+}
+.card:nth-child(11) {
+    grid-area: K;
+    animation-delay: calc(11 * var(--delay));
+}
+.card:nth-child(12) {
+    grid-area: L;
+    animation-delay: calc(12 * var(--delay));
+}
+.card:nth-child(13) {
+    grid-area: X;
+    animation-delay: calc(13 * var(--delay));
+}
+
+.card:hover {
+    box-shadow: rgba(2, 8, 20, 0.1) 0px 0.35em 1.175em, rgba(2, 8, 20, 0.08) 0px 0.175em 0.5em;
+    transform: translateY(-3px) scale(1.1);
+}
+
+@keyframes cardAnimation {
+    from {
+        opacity: 0;
+        transform: scale(0.3);
+        filter: hue-rotate(180deg); /* CHANGE COLOR */
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+        filter: hue-rotate(0deg); /* CHANGE COLOR */
+    }
+}
