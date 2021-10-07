@@ -2,7 +2,6 @@
 
 > Click on the links below to access each App
 
-1. [Light/Dark Theme Switcher](https://aman-maharshi.github.io/animations-css-js/dark-mode-toggle/)
 1. [Landing Page Animation](https://aman-maharshi.github.io/animations-css-js/bootstrap4-layout-animation)
 1. [Content Placeholder](https://aman-maharshi.github.io/animations-css-js/content-placeholder)
 1. [Grid Animation](https://aman-maharshi.github.io/animations-css-js/grid-animation/)
