@@ -11,6 +11,7 @@
 1. [Two Stage Animation](https://aman-maharshi.github.io/animations-css-js/two-stage-animation/)
 1. [On Scroll Animaiton](https://aman-maharshi.github.io/animations-css-js/on-scroll-animation)
 1. [Simple Preloader](https://aman-maharshi.github.io/animations-css-js/preloader/)
+1. [Toggle Button](https://aman-maharshi.github.io/animations-css-js/toggle-button/)
 
 ### Hover Animations
 
