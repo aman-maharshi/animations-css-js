@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&display=swap");
+
+:root {
+    --bg-color: #084386;
+}
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 1rem;
+    background: #f6fcfe;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    height: 100vh;
+    font-family: "Raleway", sans-serif;
+    position: relative;
+}
+.open-chat {
+    padding: 1rem;
+    font-size: 2rem;
+    cursor: pointer;
+    background: var(--bg-color);
+    border: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+    z-index: 5;
+}
+
+/*
+    CHAT
+-----------*/
+
+.chat {
+    background: white;
+    border-radius: 1rem;
+    box-shadow: 14px 14px 38px rgba(0, 0, 0, 0.25);
+    max-width: 350px;
+    z-index: 10;
+    clip-path: circle(0% at 100% 100%);
+}
+.chat__header {
+    background: var(--bg-color);
+    display: flex;
+    padding: 0 1rem;
+    justify-content: space-between;
+    align-items: center;
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+    color: white;
+}
+.chat__header .close {
+    font-size: 1.25rem;
+    cursor: pointer;
+}
+.messages {
+    margin: 1rem;
+    margin-right: 5px;
+    padding-right: 1rem;
+    height: 300px;
+    overflow-y: scroll;
+}
+.messages__one,
+.messages__two {
+    margin: 2rem 0;
+    text-align: left;
+}
+.messages__two {
+    text-align: right;
+}
+.message__title {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.messages__one .message__title {
+    color: var(--bg-color);
+}
+.chat__form {
+    display: flex;
+    margin: 1rem;
+    border-radius: 1rem;
+    box-shadow: 4px 4px 17px rgba(0, 0, 0, 0.1);
+}
+.chat__form input {
+    flex: 1;
+    border: none;
+    outline: none;
+    padding: 10px 1rem;
+    font-size: 1rem;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+.chat__form button {
+    border: none;
+    padding: 10px 1rem;
+    background: var(--bg-color);
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    cursor: pointer;
+}
+
+/*
+    ANIMATION
+----------------*/
+
+.open-chat-animation {
+    animation: grow-circle 0.5s forwards ease-out;
+}
+.close-chat-animation {
+    animation: shrink-circle 0.5s forwards ease-out;
+}
+@keyframes grow-circle {
+    from {
+        clip-path: circle(0% at 100% 100%);
+    }
+    to {
+        clip-path: circle(100% at 50% 50%);
+    }
+}
+@keyframes shrink-circle {
+    from {
+        clip-path: circle(100% at 50% 50%);
+    }
+    to {
+        clip-path: circle(0% at 100% 100%);
+    }
+}
