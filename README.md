@@ -1,4 +1,4 @@
-# Page Animations using CSS and JavaScript Test
+# Page Animations using CSS and JavaScript
 
 > Click on the links below to access each App
 
