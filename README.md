@@ -17,6 +17,7 @@
 ### Hover Animations
 
 1. [Card Stack Animation](https://aman-maharshi.github.io/animations-css-js/card-stack-hover-animation/)
+1. [Picture Border Animation](https://aman-maharshi.github.io/animations-css-js/border-animation/)
 1. [Hover Tooltip](https://aman-maharshi.github.io/animations-css-js/hover-tooltip/)
 1. [Button Hover Animation](https://aman-maharshi.github.io/animations-css-js/button-hover-animation/)
 
