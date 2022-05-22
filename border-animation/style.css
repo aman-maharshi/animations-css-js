@@ -1,15 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600&display=swap');
+
 body {
     margin: 0;
-    background: #2c3e50;
+    background: #182735;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
+    font-family: 'Plus Jakarta Sans', sans-serif;
 }
 
 .box {
-    height: 300px;
-    width: 300px;
-    background-color: rgba(0, 0, 0, 0.5);
+    height: 400px;
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.4);
     border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+}
+.box::before {
+    content: "";
+    position: absolute;
+    inset: -10px 140px;
+    background: linear-gradient(315deg, #00ccff, #d400d4);
+    transition: 0.5s;
+    animation: spin 4s linear infinite;
+}
+.box:hover::before {
+    inset: -20px 0;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }   
+}
+
+.box::after {
+    content: "";
+    position: absolute;
+    inset: 6px;
+    background: #182735;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.content {
+    position: absolute;
+    inset: 30px;
+    border: 6px solid rgba(0, 0, 0, 0.4);
+    border-radius: 50%;
+    z-index: 3;
+    overflow: hidden;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.content img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: 0.5s;
+    pointer-events: none;
+}
+
+.box:hover .content img {
+    opacity: 0;
+}
+
+.content h2 {
+    font-size: 2rem;
 }
