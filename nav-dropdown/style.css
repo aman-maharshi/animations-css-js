@@ -71,11 +71,11 @@ nav {
     DROPDOWN MENU STYLES
 ---------------------------*/
 
-.dropdown-menu--tags {
+.dropdown-menu--categories {
     display: flex;
     grid-gap: 10px;
     flex-wrap: wrap;
-    width: 200px;
+    width: 250px;
 }
 .tag {
     background-color: #f3f3fb;
@@ -83,4 +83,44 @@ nav {
     border-radius: 2rem;
     border: 1px solid #b4b4c4;
     font-weight: bold;
+    cursor: pointer;
+}
+
+.dropdown-menu--products {
+    width: 300px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2rem;
+}
+.product {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.product img {
+    height: 30px;
+    width: 30px;
+    object-fit: contain;
+    margin-bottom: 2px;
+}
+
+@media screen and (max-width: 768px) {
+    nav {
+        position: relative;
+        grid-gap: 1rem;
+    }
+    .dropdown {
+        position: static;
+    }
+    .dropdown-menu {
+        left: 0;
+    }
+    .dropdown-menu--products,
+    .dropdown-menu--categories {
+        width: 100vw;
+    }
 }
