@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap");
+
+body {
+    margin: 0;
+    font-family: "Quicksand", sans-serif;
+    background-color: #f3f3fb;
+    color: #232443;
+}
+nav {
+    background-color: white;
+    display: flex;
+    grid-gap: 3rem;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 10px 20px -7px rgb(160 44 219 / 7%);
+}
+
+.dropdown-header {
+    padding: 1.25rem;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 1.1rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.dropdown-header:hover {
+    color: gray;
+}
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown-menu {
+    position: absolute;
+    text-align: left;
+    left: 0;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    width: 150px;
+    background: white;
+    font-size: 1rem;
+    z-index: 10;
+    opacity: 0;
+    pointer-events: none;
+    transform: translateY(-10px);
+    transition: opacity 0.25s ease-in-out, transform 0.25s ease-in-out;
+}
+
+.dropdown-header:hover + .dropdown-menu {
+    opacity: 1;
+    transform: translateY(0);
+    pointer-events: auto;
+}
+.dropdown-menu:hover {
+    opacity: 1;
+    transform: translateY(0);
+    pointer-events: auto;
+}
+
+/* Open Dropdown on Click */
+/* .dropdown-header:focus + .dropdown-menu {
+    opacity: 1;
+    transform: translateY(0);
+    pointer-events: auto;
+} */
+
+/*
+    DROPDOWN MENU STYLES
+---------------------------*/
+
+.dropdown-menu--tags {
+    display: flex;
+    grid-gap: 10px;
+    flex-wrap: wrap;
+    width: 200px;
+}
+.tag {
+    background-color: #f3f3fb;
+    padding: 7px 14px;
+    border-radius: 2rem;
+    border: 1px solid #b4b4c4;
+    font-weight: bold;
+}
