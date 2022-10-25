@@ -2,6 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+    font-family: qsLight;
+    src: url("../public/fonts/Quicksand-Light.ttf");
+}
+@font-face {
+    font-family: qsRegular;
+    src: url("../public/fonts/Quicksand-Regular.ttf");
+}
+@font-face {
+    font-family: qsSemiBold;
+    src: url("../public/fonts/Quicksand-SemiBold.ttf");
+}
+
 html,
 body {
     padding: 0;

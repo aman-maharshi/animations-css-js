@@ -5,7 +5,13 @@ module.exports = {
         "./components/**/*.{js,ts,jsx,tsx}",
     ],
     theme: {
-        extend: {},
+        extend: {
+            fontFamily: {
+                qsLight: "qsLight",
+                qsRegular: "qsRegular",
+                qsSemiBold: "qsSemiBold",
+            },
+        },
     },
     plugins: [],
 }
