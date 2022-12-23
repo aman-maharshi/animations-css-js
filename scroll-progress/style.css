@@ -13,7 +13,7 @@ h2 {
     font-family: "Cinzel Decorative", cursive;
 }
 
-main {
+.blog {
     max-width: 800px;
     margin: 5rem auto;
 }
@@ -21,4 +21,21 @@ main {
 p {
     color: #403c34;
     line-height: 1.75;
+}
+
+.progressBar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 10px;
+    background: linear-gradient(to right, #ac8435, goldenrod);
+    width: 0;
+    z-index: 100;
+    transition: width 0.1s ease;
+}
+
+@media (max-width: 576px) {
+    .blog {
+        padding: 0 10px;
+    }
 }
