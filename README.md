@@ -10,9 +10,13 @@
 1. [Modern Login Form](https://aman-maharshi.github.io/animations-css-js/modern-login-form/)
 1. [Features Loop](https://aman-maharshi.github.io/animations-css-js/carousel-pure-css/)
 1. [Two Stage Animation](https://aman-maharshi.github.io/animations-css-js/two-stage-animation/)
-1. [On Scroll Animaiton](https://aman-maharshi.github.io/animations-css-js/on-scroll-animation)
 1. [Simple Preloader](https://aman-maharshi.github.io/animations-css-js/preloader/)
 1. [Toggle Button](https://aman-maharshi.github.io/animations-css-js/toggle-button/)
+
+### Scroll Animations
+
+1. [Scroll Progress Bar](https://aman-maharshi.github.io/scroll-progress/on-scroll-animation)
+1. [Scroll Element Reveal](https://aman-maharshi.github.io/animations-css-js/on-scroll-animation)
 
 ### Hover Animations
 
