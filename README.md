@@ -15,7 +15,7 @@
 
 ### Scroll Animations
 
-1. [Scroll Progress Bar](https://aman-maharshi.github.io/scroll-progress/on-scroll-animation)
+1. [Scroll Progress Bar](https://aman-maharshi.github.io/animations-css-js/scroll-progress/)
 1. [Scroll Element Reveal](https://aman-maharshi.github.io/animations-css-js/on-scroll-animation)
 
 ### Hover Animations
