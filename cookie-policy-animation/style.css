@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau:wght@400;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Ysabeau', sans-serif;
+}
+
+.cookie-container {
+  background: linear-gradient(260deg, #9b6c50 0%, #4f2626 100%);
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 80vw;
+  height: 30vh;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+  border-radius: 1.2rem;
+  color: white;
+}
+
+.cookie {
+  min-width: 70px;
+}
+
+button {
+  border-style: none;
+  padding: 0.5rem 1rem;
+  color: #4f2626;
+  font-weight: bold;
+  border-radius: 0.3rem;
+  margin-top: 0.5rem;
+  cursor: pointer;
+}
+
+@media (min-width: 768px) {
+  .cookie-container {
+    width: 50vw;
+    font-size: 1.2rem;
+    height: 25vh;
+    gap: 1.5rem;
+  }
+  button {
+    margin-top: 1rem;
+    font-size: 1.1rem;
+  }
+}
