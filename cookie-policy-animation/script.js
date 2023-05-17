@@ -25,12 +25,12 @@ timeline.fromTo(
 timeline.fromTo(
   ".cookie",
   {y: 0, rotation: "0deg"},
-  {y: -20, rotation: "-20deg", yoyo: true, repeat: 3}
+  {y: -20, rotation: "-20deg", yoyo: true, repeat: 1}
 )
 timeline.fromTo(
   "#crumbs",
   {y: 0},
-  {y: -10, yoyo: true, repeat: 3},
+  {y: -10, yoyo: true, repeat: 1},
   "<"
 )
 
