@@ -2,7 +2,7 @@
 
 > Click on the links below to access each App
 
-## On Page Load Animations
+### On Page Load Animations
 
 1. [Landing Page Animation](https://aman-maharshi.github.io/animations-css-js/bootstrap4-layout-animation)
 1. [Cookie Policy Card Animation](https://aman-maharshi.github.io/animations-css-js/cookie-policy-animation/)
