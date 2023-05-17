@@ -12,12 +12,12 @@
 ### Scroll Animations
 
 1. [Scroll Progress Bar](https://aman-maharshi.github.io/animations-css-js/scroll-progress/)
-1. [Scroll Card Stacking](https://aman-maharshi.github.io/animations-css-js/scroll-card-stack/)
 1. [Scroll Element Reveal](https://aman-maharshi.github.io/animations-css-js/on-scroll-animation)
 
 ### Hover Animations
 
 1. [Card Stack Animation](https://aman-maharshi.github.io/animations-css-js/card-stack-hover-animation/)
+1. [Nav Dropdown](https://aman-maharshi.github.io/animations-css-js/nav-dropdown/)
 1. [Picture Border Animation](https://aman-maharshi.github.io/animations-css-js/border-animation/)
 1. [Hover Tooltip](https://aman-maharshi.github.io/animations-css-js/hover-tooltip/)
 1. [Button Hover Animation](https://aman-maharshi.github.io/animations-css-js/button-hover-animation/)
@@ -30,9 +30,6 @@
 ### Other Animations
 
 1. [Password Typing Animation](https://aman-maharshi.github.io/animations-css-js/image-password-strength/)
-1. [Modern Login Form](https://aman-maharshi.github.io/animations-css-js/modern-login-form/)
-1. [Chat Toggle Animation](https://aman-maharshi.github.io/animations-css-js/live-chat/)
 1. [Features Loop](https://aman-maharshi.github.io/animations-css-js/carousel-pure-css/)
 1. [Two Stage Animation](https://aman-maharshi.github.io/animations-css-js/two-stage-animation/)
 1. [Toggle Button](https://aman-maharshi.github.io/animations-css-js/toggle-button/)
-1. [Preloader](https://aman-maharshi.github.io/animations-css-js/preloader/)

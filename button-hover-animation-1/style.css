@@ -1,8 +1,0 @@
-@import url("https://fonts.googleapis.com/css2?family=Karla&display=swap");
-body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: "Karla", sans-serif;
-    min-height: 90vh;
-}
