@@ -2,12 +2,16 @@
 
 > Click on the links below to access each App
 
+### Animations using GSAP
+
+1. [Cookie Policy Card Animation](https://aman-maharshi.github.io/animations-css-js/cookie-policy-animation/)
+1. [Landing Page Animation](https://aman-maharshi.github.io/animations-css-js/load-text-reveal/)
+
 ### On Page Load Animations
 
-1. [Landing Page Animation](https://aman-maharshi.github.io/animations-css-js/bootstrap4-layout-animation)
-1. [Cookie Policy Card Animation](https://aman-maharshi.github.io/animations-css-js/cookie-policy-animation/)
+1. [Landing Page Content Reveal](https://aman-maharshi.github.io/animations-css-js/bootstrap4-layout-animation)
 1. [Content Placeholder](https://aman-maharshi.github.io/animations-css-js/content-placeholder)
-1. [Grid Animation](https://aman-maharshi.github.io/animations-css-js/grid-animation/)
+1. [Grid Reveal](https://aman-maharshi.github.io/animations-css-js/grid-animation/)
 
 ### Scroll Animations
 

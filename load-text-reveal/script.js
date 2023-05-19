@@ -11,19 +11,19 @@ timeline.fromTo(
   {scale: 1, delay: 0.25, duration: 1.5, ease: "elastic.out(1.5, 1)"}
 )
 timeline.fromTo(
-  ".cta1",
+  ".cta4",
   {x: -100, opacity: 0},
   {x: 0, opacity: 1},
   "<30%" 
 )
 timeline.fromTo(
-  ".cta2",
+  ".cta5",
   {y: -30, opacity: 0}, 
   {y: 0, opacity: 1},
   "<20%" 
 )
 timeline.fromTo(
-  ".cta3",
+  ".cta6",
   {x: 100, opacity: 0}, 
   {x: 0, opacity: 1},
   "<10%"   
