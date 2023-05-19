@@ -14,7 +14,10 @@ nav {
   align-items: center;
   justify-content: center;
   color: rgb(33,33,33)
-
+}
+.logo {
+  display: flex;
+  overflow: hidden;
 }
 .hero {
   height: 85vh;
