@@ -1,4 +1,4 @@
-export const data = [
+export const cardsData = [
   {
     title: "Matthias Leidinger",
     description: "Originally hailing from Austria, Berlin-based photographer Matthias Leindinger is a young creative brimming with talent and ideas.",
