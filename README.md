@@ -1,4 +1,4 @@
-# Animations using CSS and JavaScript
+# Animations using CSS and JavaScript / React
 
 > Click on the links below to access each App
 
