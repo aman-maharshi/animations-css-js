@@ -4,9 +4,10 @@ function Card({ item }) {
 
   const {title, description, src, link, color} = item
   return (
-    <div>
-      <h2>{title}</h2>
-      <p>{description}</p>
+    <div className='card-container'>
+      <div className="card" style={{background: color}}>
+        
+      </div>
     </div>
   )
 }

@@ -3,5 +3,31 @@
 body {
   margin: 0;
   font-family: "Noto Sans", sans-serif;
- 
+}
+
+.main {
+  margin-top: 50vh;
+  margin-bottom: 100vh;
+}
+
+
+.card-container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: sticky;
+  top: 0;
+}
+
+.card {
+  height: 400px;
+  width: 800px;
+  border-radius: 25px;
+}
+
+@media (max-width: 1024px) {
+  .card {
+    width: 600px;
+  }
 }

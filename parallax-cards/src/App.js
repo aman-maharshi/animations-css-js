@@ -6,7 +6,7 @@ function App() {
   const [data, setData] = useState(cardsData)
 
   return (
-    <div>
+    <div className="main">
       {data.map((item, index) => {
         return (
           <Card key={index} item={item} />
