@@ -34,7 +34,7 @@ function App() {
       <div className="main">
         {data.map((item, index) => {
           const targetScale = 1 - ((data.length - index) * 0.05)
-          console.log(targetScale)
+          // console.log(targetScale)
 
           return (
             <Card
