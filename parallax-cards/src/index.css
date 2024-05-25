@@ -9,9 +9,11 @@ body {
   box-sizing: border-box;
 }
 
-.main {
-  margin-top: 50vh;
-  margin-bottom: 100vh;
+.header {
+  height: 10vh;
+}
+.footer {
+  height: 50vh;
 }
 
 
@@ -37,10 +39,6 @@ body {
   font-size: 1.5rem;
   font-weight: 600;
   margin-bottom: 2rem;
-}
-
-.card__link a {
-  color: #2c2c2c;
 }
 
 .card__row {

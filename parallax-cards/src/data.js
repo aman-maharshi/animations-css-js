@@ -1,30 +1,26 @@
 export const cardsData = [
   {
-    title: "Matthias Leidinger",
-    description: "Originally hailing from Austria, Berlin-based photographer Matthias Leindinger is a young creative brimming with talent and ideas.",
+    title: "Tokyo",
+    description: "Tokyo, the capital city of Japan, is a vibrant metropolis that seamlessly blends traditional culture with cutting-edge technology. As one of the most populous cities in the world, Tokyo is known for its bustling streets, towering skyscrapers, and diverse neighborhoods. ",
     src: "/tokyo.jpg",
-    link: "https://www.ignant.com/2023/03/25/ad2186-matthias-leidingers-photographic-exploration-of-awe-and-wonder/",
-    color: "#BBACAF"
+    color: "#d69ca7"
   },
   {
-    title: "Clément Chapillon",
-    description: "This is a story on the border between reality and imaginary, about the contradictory feelings that the insularity of a rocky, arid, and wild territory provokes”—so French photographer Clément Chapillon describes his latest highly captivating project Les rochers fauves (French for ‘The tawny rocks’).",
+    title: "New York",
+    description: "Located on the east coast of the United States, it is renowned for its iconic skyline, featuring landmarks like the Statue of Liberty, Empire State Building, and Times Square. NYC is a melting pot of cultures, offering diverse neighborhoods such as Chinatown, Harlem, and Little Italy, each with its unique charm. ",
     src: "/nyc.jpg",
-    link: "https://www.ignant.com/2022/09/30/clement-chapillon-questions-geographical-and-mental-isolation-with-les-rochers-fauves/",
-    color: "#977F6D"
+    color: "#cfa17e"
   },
   {
-    title: "Zissou",
-    description: "Though he views photography as a medium for storytelling, Zissou’s images don’t insist on a narrative. Both crisp and ethereal, they’re encoded with an ambiguity—a certain tension—that lets the viewer find their own story within them.",
+    title: "Switzerland",
+    description: "Switzerland, a picturesque country in Central Europe, is renowned for its stunning landscapes, including the majestic Alps, serene lakes, and charming villages. Known for its neutrality and political stability, Switzerland hosts numerous international organizations and is a hub for diplomacy. ",
     src: "/swiss.jpg",
-    link: "https://www.ignant.com/2023/10/28/capturing-balis-many-faces-zissou-documents-the-sacred-and-the-mundane-of-a-fragile-island/",
-    color: "#C2491D"
+    color: "#d2663e"
   },
   {
-    title: "Mark Rammers",
-    description: "Dutch photographer Mark Rammers has shared with IGNANT the first chapter of his latest photographic project, ‘all over again’—captured while in residency at Hektor, an old farm in Los Valles, Lanzarote. Titled ‘Beginnings’, the mesmerizing collection of images is a visual and meditative journey into the origins of regrets and the uncertainty of stepping into new unknowns.",
+    title: "India",
+    description: "India, a vast and diverse country in South Asia, is known for its rich cultural heritage and history. It is the world's largest democracy and the second-most populous nation, with over 1.4 billion people. India is home to a multitude of languages, religions, and traditions, making it a land of vibrant diversity. ",
     src: "/india.jpg",
-    link: "https://www.ignant.com/2023/04/12/mark-rammers-all-over-again-is-a-study-of-regret-and-the-willingness-to-move-forward/",
-    color: "#88A28D"
+    color: "#c97a5d"
   }
 ]
