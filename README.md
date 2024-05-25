@@ -12,6 +12,7 @@
 
 ### Scroll Animations
 
+1. [Cards Parallax with Framer Motion](https://aman-maharshi.github.io/animations-css-js/parallax-cards/build)
 1. [Scroll Progress Bar](https://aman-maharshi.github.io/animations-css-js/scroll-progress/)
 1. [Scroll Element Reveal](https://aman-maharshi.github.io/animations-css-js/on-scroll-animation)
 
